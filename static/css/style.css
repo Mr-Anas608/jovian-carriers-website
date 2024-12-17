@@ -1,12 +1,19 @@
 *{
-  background-color: #ccedff;
+  background-color: #000000;
 }
 
 #title{
+  color: #F7FFFF;
+  text-shadow: 0 0 10px #F7FFFF, 0 0 20px #F7FFFF, 0 0 30px #008cff, 0 0 40px #008cff, 0 0 50px #6D91AF, 0 0 60px #6D91AF, 0 0 70px #6D91AF;
   text-align: center;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bolder;
+  margin: 5vw;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 10px; 
+  text-decoration-thickness: 3.1px; 
 }
 .image{
   background-image: url("/static/images/banner.jpg");
@@ -21,14 +28,25 @@ main{
   font-family: Roboto;
   font-weight: normal;
   text-align: center;
+  
 }
 .subheading{
+  
+  color: #F7FFFF;
+  text-shadow: 0 0 10px #F7FFFF, 0 0 20px #F7FFFF, 0 0 30px #008cff, 0 0 40px #008cff, 0 0 50px #6D91AF, 0 0 60px #6D91AF, 0 0 70px #6D91AF;
   font-size: 30px;
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 10px; 
+  text-decoration-thickness: 3.1px;
+  margin: 5vw;
 }
 .text{
+  text-shadow: 0 0 10px #6D91AF, 0 0 15px #6D91AF;
   font-size: 20px;
   font-weight: normal;
-  padding: 0px, 10vw;
-  margin: 50px, 50px;
+  margin: 5vw 10vw;
+  color: rgb(150,150,150);
 }
+
