@@ -1,0 +1,34 @@
+*{
+  background-color: #ccedff;
+}
+
+#title{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.image{
+  background-image: url("/static/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+
+}
+
+main{
+  font-family: Roboto;
+  font-weight: normal;
+  text-align: center;
+}
+.subheading{
+  font-size: 30px;
+  font-weight: bold;
+}
+.text{
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0px, 10vw;
+  margin: 50px, 50px;
+}
